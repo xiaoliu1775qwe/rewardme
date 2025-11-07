@@ -31,7 +31,7 @@ $epay_config['pid'] = '您的商户ID';
 $epay_config['key'] = '您的商户密钥';
 ```
 
-在 `在 `epayapi.php` 中配置：
+在 `epayapi.php` 中配置：
 ```php
 $notify_url = "https://改成你的域名/SDK/notify_url.php";
 //需http://格式的完整路径，不能加?id=123这类自定义参数
