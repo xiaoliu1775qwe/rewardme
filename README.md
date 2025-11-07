@@ -17,10 +17,9 @@
 ## 安装使用
 
 1. 克隆项目到您的服务器
-2. 复制 `lib/epay.config.example.php` 为 `lib/epay.config.php`
-3. 配置您的商户信息
-4. 修改通知地址为您自己的域名
-5. 访问 `index.php` 即可使用
+2. 配置您的商户信息
+3. 修改通知地址为您自己的域名
+4. 访问 `index.php` 即可使用
 
 ## 配置说明
 
@@ -30,3 +29,14 @@
 $epay_config['apiurl'] = '您的支付接口地址';
 $epay_config['pid'] = '您的商户ID';
 $epay_config['key'] = '您的商户密钥';
+```
+
+在 `在 `epayapi.php` 中配置：
+```php
+$notify_url = "https://改成你的域名/SDK/notify_url.php";
+//需http://格式的完整路径，不能加?id=123这类自定义参数
+
+//页面跳转同步通知页面路径
+$return_url = "https://改成你的域名/SDK/return_url.php";
+//需http://格式的完整路径，不能加?id=123这类自定义参数
+```
