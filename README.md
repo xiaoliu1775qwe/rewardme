@@ -1,6 +1,6 @@
 # 赞助作者页面 - 集成彩虹易支付
 
-一个基于Bootstrap 5和彩虹易支付V1 SDK的现代化赞助页面。
+一个基于Bootstrap 5和彩虹易支付V1 SDK的现代化赞助作者页面
 
 ![效果图1](https://youke1.picui.cn/s1/2025/11/07/690d6440d1ebf.png)
 ![效果图1](https://youke1.picui.cn/s1/2025/11/07/690d647c56e7b.png)
